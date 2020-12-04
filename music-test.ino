@@ -155,7 +155,7 @@ void loop() {  //循環區塊
 			case C6:
 				i = 10 ;
 				break;
-        }
+		}
 
         digitalWrite(ledPins[i], HIGH);
         delay(Durations[thisNote] * 400);
